@@ -1,0 +1,146 @@
+
+  
+  h1, h2 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  
+  .restaurant-detail-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .restaurant-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .restaurant-detail-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .restaurant-city,
+  .restaurant-description {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    text-align: center;
+  }
+  
+  .average-rating {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #f39c12;
+  }
+  
+  
+  .back-button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: #2980b9;
+  }
+  
+  
+  .reviews-section {
+    margin-top: 30px;
+  }
+  
+  .review-card {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-user {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .review-comment {
+    font-style: italic;
+    margin-top: 10px;
+    color: #7f8c8d;
+  }
+  
+  
+  .add-review-section {
+    margin-top: 30px;
+  }
+  
+  .review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .review-form input,
+  .review-form select,
+  .review-form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .review-form input:focus,
+  .review-form select:focus,
+  .review-form textarea:focus {
+    border-color: #3498db;
+  }
+  
+  .review-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .submit-button {
+    padding: 12px 20px;
+    background-color: #2ecc71;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+  
+  .submit-button:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Loading and Error States */
+  .loading,
+  .error {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #e74c3c;
+    margin-top: 20px;
+  }
+  
+  .loading {
+    color: #3498db;
+  }
+  

@@ -24,9 +24,12 @@ const InvestorRelations=()=>{
 <Link to="/about/blog">
   <li>Blog</li>
 </Link>
-                <Link to="/about/goverance">
-  <li> Goverance</li>
+
+<li>
+<Link to="/RestDetails/:id">
+   <li>Feedback</li>
 </Link>
+</li>
 <Link to="/about/esg">
   <li>ESG</li>
 </Link>

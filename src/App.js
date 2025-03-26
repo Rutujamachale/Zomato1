@@ -27,6 +27,15 @@ import RestaurantsCity1 from "./Frontend/phase-3/RestaurantsCity1";
 import Restaurants1 from "./Frontend/phase-3/Restaurants1";
 import RestaurantsCity4 from "./Frontend/phase-4/RestaurantsCity4";
 import RestaurantDetails4 from "./Frontend/phase-4/RestaurantDetails4";
+import RestaurantDetails11 from "./Frontend/phase-4updated/RestaurantDetails11";
+import City14 from "./Frontend/phase-4updated/City14";
+
+
+
+
+
+
+
 
 
 
@@ -67,7 +76,12 @@ function App() {
         <Route path="/restaurants/:id" element={<RestaurantDetails />} />
           <Route path="/getRestaurantsByCity/:city" element={<RestaurantsByCity/>} />
         <Route path="/RestoCity" element={<RestaurantsCity4/>} />
+        <Route path="/RestDetails/:id" element={<RestaurantDetails11/>} />
+        <Route path="/RCity" element={<City14/>} />
+        
        
+       
+      
         </Routes>
       </Router>
     </div>
