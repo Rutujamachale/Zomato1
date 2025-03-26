@@ -1,0 +1,90 @@
+.restaurants-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  .back-link {
+    background: #ffffff;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .back-link:hover {
+    background: #f1f1f1;
+    transform: scale(1.05);
+  }
+  
+  
+  .restaurants-title {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  .restaurants-list {
+    list-style: none;
+    padding: 0;
+    max-width: 500px;
+    width: 90%;
+  }
+  
+  
+  .restaurant-card {
+    background: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .restaurant-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .restaurant-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+ 
+  .restaurant-city {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  
+  .no-restaurants {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  
+  .loading-message,
+  .error-message {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  

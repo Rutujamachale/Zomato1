@@ -1,0 +1,88 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.logo img {
+    
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.login-text {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+
+
+.login-btn {
+    width:31%;
+    background: #ff5860;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background 0.3s;
+}
+
+
+
+
+
+.social-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-btn {
+    width: 30%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.social-btn.email {
+    background:rgba(128, 128, 128, 0.233);
+    color:black;
+}
+
+.social-btn.google {
+    background:rgba(128, 128, 128, 0.233);
+    color:black;
+}
+
+
+
+.signup-text a {
+    color: #ff5860;
+    text-decoration: none;
+}

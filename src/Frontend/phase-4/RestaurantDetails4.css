@@ -1,0 +1,129 @@
+
+.restaurant-wrapper {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .restaurant-name {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .restaurant-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px 0;
+  }
+  
+  .restaurant-location,
+  .restaurant-info,
+  .restaurant-rating {
+    font-size: 18px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .restaurant-rating {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ff9800;
+  }
+  
+  
+  .back-btn {
+    background: #ff5f5f;
+    color: white;
+    padding: 8px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .back-btn:hover {
+    background: #e04e4e;
+  }
+  
+  
+  .reviews-container {
+    margin-top: 30px;
+  }
+  
+  .review-box {
+    background: #f9f9f9;
+    padding: 15px;
+    border-left: 5px solid #ff9800;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .review-author {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .review-text {
+    font-size: 16px;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  
+  .add-review {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f5f5f5;
+    border-radius: 10px;
+  }
+  
+  .review-form input,
+  .review-form select,
+  .review-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .review-form textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .submit-btn {
+    background: #4caf50;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+  }
+  
+  .submit-btn:hover {
+    background: #43a047;
+  }
+  
+  
+  .loading, .error {
+    font-size: 18px;
+    color: #ff5f5f;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  

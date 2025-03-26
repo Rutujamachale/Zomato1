@@ -1,0 +1,40 @@
+
+div {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+input[type="text1"] {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+ 
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-item {
+  background: #fff3e0; 
+  padding: 10px;
+  margin: 5px auto;
+  width: 50%;
+  max-width: 400px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+
+.menu-item:hover {
+  background: #ffcc80; 
+  cursor: pointer;
+}

@@ -1,0 +1,55 @@
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 32px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  hr {
+    width: 80%;
+    margin: 10px auto;
+    border: 0;
+    border-top: 1px solid #ddd;
+  }
+  
+  .quarter-section {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+ 
+  .f-row {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+    margin: 20px 0;
+  }
+  
+  .f-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+  .f-info img {
+    width: 260px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .f-info p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  

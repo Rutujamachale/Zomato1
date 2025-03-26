@@ -1,0 +1,98 @@
+
+.restaurants-container {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  .app-title {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .city-dropdown {
+    margin-bottom: 20px;
+  }
+  
+  .city-label {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .city-select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    transition: 0.3s;
+  }
+  
+  .city-select:hover {
+    background-color: #fff2f4;
+  }
+  
+  
+  .loading-message,
+  .error-message {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: #ff4444;
+  }
+  
+  .no-data-message {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  
+  .restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  
+  .restaurant-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .restaurant-card:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  .restaurant-name {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  
+  .restaurant-location {
+    font-size: 16px;
+    color: #666;
+  }
+  
+ 
