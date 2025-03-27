@@ -31,7 +31,8 @@ const RestaurantsCity = () => {
     setError(null);
 
     // axios.get(`http://localhost:5401/getRestaurantsByCity/${city}`)
-    axios.get(`https://zomato-clone-backend-8jfr.onrender.com/getRestaurantsByCity/${city}`)
+    // axios.get(`https://zomato-clone-backend-8jfr.onrender.com/getRestaurantsByCity/${city}`)
+    axios.get(`https://zomato-clone-backend-w4z0.onrender.com/getRestaurantsByCity/${city}`)
       .then((response) => {
         if (response.data.restaurantList && Array.isArray(response.data.restaurantList)) {
           setRestaurants(response.data.restaurantList);
