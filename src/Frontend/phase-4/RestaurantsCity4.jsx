@@ -113,7 +113,8 @@ const RestaurantsCity4 = () => {
   // Fetch cities on mount
   useEffect(() => {
     axios
-      .get("https://zomato-clone-backend-8jfr.onrender.com/restaurants")
+      // .get("https://zomato-clone-backend-8jfr.onrender.com/restaurants")
+      .get("https://zomato-clone-backend-w4z0.onrender.com/restaurants")
       .then((response) => {
         if (response.data && Array.isArray(response.data)) {
           const uniqueCities = [...new Set(response.data.map((r) => r.city))];
@@ -140,7 +141,8 @@ const RestaurantsCity4 = () => {
 
     // Fetch restaurants based on selected city
     axios
-      .get(`https://zomato-clone-backend-8jfr.onrender.com/getRestaurantsByCity/${city}`)
+      // .get(`https://zomato-clone-backend-8jfr.onrender.com/getRestaurantsByCity/${city}`)
+      .get(`https://zomato-clone-backend-w4z0.onrender.com/getRestaurantsByCity/${city}`)
       .then((response) => {
         console.log("API Response:", response.data); // Debugging: log API response
 

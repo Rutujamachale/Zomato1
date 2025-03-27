@@ -13,7 +13,8 @@ const RestaurantsByCity = () => {
   useEffect(() => {
     axios
       // .get(`http://localhost:5401/getRestaurantsByCity/${city}`)
-      .get(`https://zomato-clone-backend-8jfr.onrender.com/getRestaurantsByCity/${city}`)
+      // .get(`https://zomato-clone-backend-8jfr.onrender.com/getRestaurantsByCity/${city}`)
+      .get(`https://zomato-clone-backend-w4z0.onrender.com/getRestaurantsByCity/${city}`)
       .then((response) => {
         console.log("API Response:", response.data); // Debugging
         if (Array.isArray(response.data.restaurantList)) {

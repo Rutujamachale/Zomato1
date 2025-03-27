@@ -73,7 +73,8 @@ const RestaurantDetails4 = () => {
   useEffect(() => {
     axios
       // .get(`http://localhost:5401/restaurants/${id}`)
-      .get(`https://zomato-clone-backend-8jfr.onrender.com/restaurants/${id}`)
+      // .get(`https://zomato-clone-backend-8jfr.onrender.com/restaurants/${id}`)
+      .get(`https://zomato-clone-backend-w4z0.onrender.com/restaurants/${id}`)
       .then((response) => {
         setRestaurant(response.data.restaurant);
         setLoading(false);
@@ -134,6 +135,7 @@ const RestaurantDetails4 = () => {
         <form onSubmit={(e) => {
           e.preventDefault();
           if (newReview.username && newReview.comment) {
+            // axios.post(`http://localhost:5401/restaurants/${id}/reviews`, newReview)
             // axios.post(`http://localhost:5401/restaurants/${id}/reviews`, newReview)
             axios.post(`http://localhost:5401/restaurants/${id}/reviews`, newReview)
               .then((response) => {

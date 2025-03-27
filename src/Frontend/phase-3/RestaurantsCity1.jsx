@@ -12,7 +12,8 @@ const RestaurantsCity1 = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5401/restaurants")
+      // .get("http://localhost:5401/restaurants")
+      .get("https://zomato-clone-backend-w4z0.onrender.com/restaurants")
       .then((response) => {
         console.log("All restaurants response:", response.data);
         if (response.data && Array.isArray(response.data)) {
@@ -31,7 +32,9 @@ const RestaurantsCity1 = () => {
 
     axios
       // .get(`http://localhost:5401/getRestaurantsByCity/${city}`)
-      .get(`https://zomato-clone-backend-8jfr.onrender.com/getRestaurantsByCity/${city}
+      // .get(`https://zomato-clone-backend-8jfr.onrender.com/getRestaurantsByCity/${city}
+      .get(`https://zomato-clone-backend-w4z0.onrender.com/getRestaurantsByCity/${city}
+}
 `)
       .then((response) => {
         console.log("Restaurants in city:", response.data); // Debugging

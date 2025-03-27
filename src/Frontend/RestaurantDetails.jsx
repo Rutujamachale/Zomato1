@@ -13,7 +13,8 @@ const RestaurantDetails = () => {
   useEffect(() => {
     axios
       // .get(`http://localhost:5401/restaurants/${id}`)
-      .get(`https://zomato-clone-backend-8jfr.onrender.com/restaurants/${id}`)
+      // .get(`https://zomato-clone-backend-8jfr.onrender.com/restaurants/${id}`)
+      .get(`https://zomato-clone-backend-w4z0.onrender.com/restaurants/${id}`)
       .then((response) => {
         setRestaurant(response.data.restaurant);
         setLoading(false);

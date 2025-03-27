@@ -52,7 +52,7 @@
 
             
 //           ))
-//         ) : (
+//         ) : (.get("http://localhost:5401/restaurants")
 //           <p>No restaurants available.</p>
 //         )}
 //       </ul>
@@ -76,8 +76,9 @@ const Restaurants1 = () => {
 
   useEffect(() => {
     axios
-      // .get("http://localhost:5401/restaurants")
-      .get("https://zomato-clone-backend-8jfr.onrender.com/restaurants")
+      
+      // .get("https://zomato-clone-backend-8jfr.onrender.com/restaurants")
+      .get("https://zomato-clone-backend-w4z0.onrender.com/restaurants")
       .then((response) => {
         console.log("API Response:", response.data); // Debugging
         if (Array.isArray(response.data)) {
